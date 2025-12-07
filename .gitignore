@@ -16,6 +16,8 @@ examples/*.tmp
 
 ## Visual Studio artifacts
 .vs
+*.sln
+*.vcxproj*
 ipch
 *.opensdf
 *.log
@@ -32,6 +34,8 @@ JSON/
 
 ## Commonly used CMake directories & CMake CPM cache
 build*/
+bin
+bin-int
 .cache
 
 ## Xcode & macOS artifacts
